@@ -1,0 +1,140 @@
+.header{
+	background-color: rgb(220, 220, 220);
+
+	width: ; 600px;
+	height : 230px;
+}
+.icon{
+	width: ; 600px;
+	height : 230px;
+	float: left;
+	
+	background-color: rgb(200, 200, 200);
+
+}
+.welcome{
+	background-color: rgb(120, 120, 120);
+	width:  991px;
+	height : 230px;
+	float :left;
+
+
+}
+.welcome h1{
+
+text-align: center;
+	font-size: 50px;
+	font-color: red;
+	float :right;
+    margin-top: 152px;
+
+}
+.welcome h4{
+
+text-align: center;
+    font-size: 91px;
+    font-color: red;
+    font-variant-position: center ;
+    float :left;
+    margin-bottom:  1952px;
+
+}
+h1 p{
+	font-color:blue;
+}
+.navigator{
+	float: left;
+}
+
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 224px;
+    background-color: #f1f1f1;
+}
+
+.navigator ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.navigator ul  li a:hover {
+    background-color: #555;
+    color: white;
+}
+.Horo_navigator{
+	float: left ;
+}
+
+.Horo_navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.Horo_navigator li {
+    float: left;
+}
+
+.Horo_navigator li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Horo_navigator li a:hover {
+  background-color: #555;
+}
+.dropbtn {
+    background-color:  #f1f1f1;
+    color:#000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
